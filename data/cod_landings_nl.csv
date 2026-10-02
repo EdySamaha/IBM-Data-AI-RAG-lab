@@ -1,0 +1,71 @@
+year,landings_tonnes,licensed_fishers,fishery_status
+1955,263339.3,21850,commercial
+1956,277475.2,22914,commercial
+1957,301481.7,23795,commercial
+1958,313435.5,24039,commercial
+1959,324691.7,24751,commercial
+1960,339803.5,25569,commercial
+1961,407865.0,25902,commercial
+1962,464116.4,26650,commercial
+1963,507217.3,27532,commercial
+1964,582413.2,28189,peak
+1965,627856.7,28360,peak
+1966,703285.7,29799,peak
+1967,745175.5,30369,peak
+1968,808260.6,30812,peak
+1969,721840.6,30808,peak
+1970,642443.6,31089,peak
+1971,556179.8,31968,peak
+1972,454324.6,32943,declining
+1973,404396.1,32380,declining
+1974,340524.6,32507,declining
+1975,300397.5,32819,declining
+1976,256032.8,33025,declining
+1977,209765.2,34566,declining
+1978,215610.0,34315,declining
+1979,230006.3,35358,declining
+1980,228648.8,34946,declining
+1981,238392.8,33808,declining
+1982,248623.4,33184,declining
+1983,255139.9,32523,declining
+1984,247076.5,31727,declining
+1985,262490.0,31931,declining
+1986,247641.4,30291,declining
+1987,241699.1,30492,declining
+1988,237803.9,29909,declining
+1989,215206.5,28779,declining
+1990,186300.8,27622,declining
+1991,167161.5,26422,declining
+1992,75000.0,23927,moratorium declared
+1993,12170.8,5881,moratorium
+1994,8365.2,5881,moratorium
+1995,4899.7,5624,moratorium
+1996,5490.5,5378,moratorium
+1997,5837.1,5135,moratorium
+1998,6373.9,4837,moratorium
+1999,6637.3,4702,moratorium
+2000,7156.8,4500,moratorium
+2001,7415.6,4392,moratorium
+2002,7977.8,4284,moratorium
+2003,8798.9,4288,moratorium
+2004,9460.9,4246,moratorium
+2005,10105.2,4090,moratorium
+2006,10322.8,4109,moratorium
+2007,11038.9,4082,limited stewardship fishery
+2008,11514.7,3986,limited stewardship fishery
+2009,12251.8,3912,limited stewardship fishery
+2010,13273.3,3792,limited stewardship fishery
+2011,13588.0,3816,limited stewardship fishery
+2012,14459.8,3691,limited stewardship fishery
+2013,15164.1,3672,limited stewardship fishery
+2014,15505.6,3643,limited stewardship fishery
+2015,16034.9,3506,limited stewardship fishery
+2016,15997.5,3454,limited stewardship fishery
+2017,17191.7,3452,limited stewardship fishery
+2018,17617.1,3325,limited stewardship fishery
+2019,17079.2,3334,limited stewardship fishery
+2020,17474.4,3177,limited stewardship fishery
+2021,18969.6,3154,limited stewardship fishery
+2022,19563.4,3149,limited stewardship fishery
+2023,19853.9,3003,limited stewardship fishery
+2024,20413.2,2952,limited stewardship fishery

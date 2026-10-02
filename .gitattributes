@@ -1,0 +1,8 @@
+# Keep binary assets byte-for-byte (no line-ending normalization).
+*.pdf binary
+
+# Notebooks are JSON — treat as text so diffs work, but don't normalize EOL.
+*.ipynb -text
+
+# Normalize line endings for text sources.
+* text=auto

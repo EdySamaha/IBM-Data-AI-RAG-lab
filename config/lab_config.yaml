@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------
+# Single source of truth for the names and settings used across the lab.
+# The notebooks, the written instructions, and the helper/preflight scripts
+# all refer back to these values so nothing drifts out of sync.
+#
+# If you rename something in watsonx.data (e.g. use a different catalog name),
+# change it HERE and the scripts follow. The written steps call out where a
+# value is assumed so learners can match their own environment.
+# ---------------------------------------------------------------------------
+
+# --- watsonx.data: catalog / schema / table ---
+catalog: iceberg_data        # the governed catalog that holds the table
+schema: marine               # a "labeled folder" for related tables
+table: cod_landings_nl       # the Iceberg table ingested from the CSV
+
+# Fully-qualified name used in federated SQL: iceberg_data.marine.cod_landings_nl
+# (built from the three values above).
+
+# --- watsonx.data: engine display names (what you call them in the UI) ---
+presto_engine_name: lab-presto
+milvus_engine_name: lab-milvus
+
+# --- watsonx.data: Milvus collection the PDF vectors land in ---
+milvus_collection: cod_docs
+
+# --- watsonx.ai: region endpoint (override per attendee if needed) ---
+url: https://us-south.ml.cloud.ibm.com
+
+# --- watsonx.ai: foundation models ---
+embedding_model_id: ibm/slate-125m-english-rtrvr   # text -> vectors
+granite_model_id: ibm/granite-3-8b-instruct        # text-to-SQL + chart code
+
+# --- PDF chunking (semantic-search demo) ---
+chunk_size: 500      # characters per chunk
+chunk_step: 400      # stride; 100-char overlap keeps straddling sentences searchable
+chunk_min_len: 50    # drop fragments shorter than this
+
+# --- dataset span (used by the generator + sanity checks) ---
+year_start: 1955
+year_end: 2024
+moratorium_year: 1992

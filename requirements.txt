@@ -1,0 +1,19 @@
+# Lab runtime dependencies.
+# In watsonx.ai, the notebooks install these in their first cell; this file
+# lets you reproduce the same environment locally (e.g. for the preflight
+# script or to run a notebook outside watsonx.ai).
+
+# --- watsonx + lab stack (matches the notebooks' pip install) ---
+ibm-watsonx-ai>=1.1.0      # watsonx.ai Python SDK: APIClient, ModelInference, Embeddings
+pymilvus>=2.4.0            # client for the Milvus vector database
+pypdf>=4.0.0              # read/extract text from the background PDF
+prestodb>=0.1.3           # Presto DB-API client (query the catalogued table)
+pandas>=2.0.0            # dataframes
+matplotlib>=3.7.0        # charting
+
+# --- used by the local helper + preflight scripts only ---
+PyYAML>=6.0              # read config/lab_config.yaml
+python-dotenv>=1.0.0     # load credentials from a local .env file
+
+# --- used only to (re)build the background PDF from markdown ---
+# reportlab>=4.0.0       # uncomment if you want to rebuild docs/cod_background.pdf
